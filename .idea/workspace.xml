@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d546e62-e090-42f1-a1e4-729ed5d3f5c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/newClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testng_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/Assertion_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/CustomDataProvider_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/DataProvider_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/Dependency_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/Grouping_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/ParallelTesting/ParallelTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/ParallelTesting/Parallel_Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/Parameter_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/Priority_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/TC_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/TC_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/listeners/Custom_Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNG/listeners/Listeners_Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2bdijzYnd546TEHEtZGA5tve9kD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Custom_Listeners.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.newClass.executor": "Run",
+    "JUnit.All in testng_project.executor": "Run",
+    "Maven.testng_project [clean].executor": "Run",
+    "Maven.testng_project [compile].executor": "Run",
+    "Maven.testng_project [site].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/arashpeermohammad/IdeaProjects/testng_project/testng.xml.executor": "Run",
+    "TestNG.<default> (1).executor": "Run",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.Assertion_Class.executor": "Run",
+    "TestNG.Assertion_Class.logoTest.executor": "Run",
+    "TestNG.DataProvider_Example.executor": "Run",
+    "TestNG.DataProvider_Example.loginTest.executor": "Run",
+    "TestNG.Dependency_Example.executor": "Run",
+    "TestNG.Grouping_Example.executor": "Run",
+    "TestNG.Listeners_Test.executor": "Run",
+    "TestNG.ParallelTest_2.executor": "Run",
+    "TestNG.ParallelTest_2.loginTest.executor": "Run",
+    "TestNG.ParallelTest_2.someMethod.executor": "Run",
+    "TestNG.Parallel_Test1.executor": "Run",
+    "TestNG.Parallel_Test1.homePageTest.executor": "Run",
+    "TestNG.Parallel_Test1.logoTest.executor": "Run",
+    "TestNG.Priority_Example.executor": "Run",
+    "TestNG.TC_1.executor": "Run",
+    "TestNG.TC_1.login.executor": "Run",
+    "TestNG.TC_1.setup.executor": "Run",
+    "TestNG.TC_2.executor": "Run",
+    "TestNG.TC_2.test1.executor": "Run",
+    "TestNG.TC_2.test2.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/arashpeermohammad/IdeaProjects/testng_project/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testNG" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/arashpeermohammad/IdeaProjects/testng_project/testng.xml">
+    <configuration name="Custom_Listeners" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testNG.listeners.Custom_Listeners" />
+      <module name="testng_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG.listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Listeners_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG.listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNG.listeners" />
+      <option name="MAIN_CLASS_NAME" value="testNG.listeners.Listeners_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG.ParallelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNG.ParallelTesting" />
+      <option name="MAIN_CLASS_NAME" value="testNG.ParallelTesting.ParallelTest_2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parallel_Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNG.ParallelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNG.ParallelTesting" />
+      <option name="MAIN_CLASS_NAME" value="testNG.ParallelTesting.Parallel_Test1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/arashpeermohammad/IdeaProjects/testng_project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Custom_Listeners" />
+      <item itemvalue="TestNG.Listeners_Test" />
+      <item itemvalue="TestNG.ParallelTest_2" />
+      <item itemvalue="TestNG.Parallel_Test1" />
+      <item itemvalue="TestNG./Users/arashpeermohammad/IdeaProjects/testng_project/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/arashpeermohammad/IdeaProjects/testng_project/testng.xml" />
+        <item itemvalue="Application.Custom_Listeners" />
+        <item itemvalue="TestNG.Listeners_Test" />
+        <item itemvalue="TestNG.ParallelTest_2" />
+        <item itemvalue="TestNG.Parallel_Test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-69315bf7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d546e62-e090-42f1-a1e4-729ed5d3f5c9" name="Changes" comment="" />
+      <created>1706551503139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706551503139</updated>
+    </task>
+    <servers />
+  </component>
+</project>

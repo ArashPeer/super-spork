@@ -1,0 +1,166 @@
+Part 1
+first - I need to go to this link to download the dependencies mvnrepository.com: downloaded
+The below is the structure of the Test we need to be followed
+TestSuite --> TC --> Test Steps
+Package --> Classes --> Methods -->Test Annotations @Test
+Note:   Every Class needs to be one test case under the package.
+
+
+Part 2
+Topics
+1- What is TestNG XML file? usage
+2- How to create TestNG XML?
+3- How to run tests from XML file
+4- TestNG report
+
+to create testng xml file we need to download a new PLUGIN "create testng xml file"
+
+if you don't see report folder under the target folder you can select the project go to run/edit configuration/
+Listener/ click on + button write "REPORT" click and add also the FAIL REPORT/ apply and ok.
+
+Part 3
+Annotations in testNG
+We can control the sequence and priority of the methods which allows to execute java code before and after a certain point.
+Annotations are placed over the method with symbol@.
+
+Execution Sequence of Annotations as follow
+1- @BeforeSuite     @AfterSuite
+2- @BeforeTest      @AfterTest
+3- @BeforeClass     @AfterClass
+4- @BeforeMethod    @AfterMethod
+5- @Test
+
+think of scenario like @BeforeMethod and @AfterMethod which means
+one we define @BeforeMethod on top of each tcs and also have @AfterMethod somewhere in the class
+when we execute the code the before method will execute multiple times which means when the code is
+executed before method will call it first once the execute is completed than the after method will
+call same think with every single tcs in the class.
+
+Part 4
+How to Prioritize Tests and Disabling Tests?
+@Test(priority = 1, enabled = false) this method will disable and prioritize the test case
+
+Part 4
+1- Dependency Tests in TestNG
+    for example some test cases are dependent to some other test cases and we need to manage it.
+        @Test
+        void startCar()
+        {
+            System.out.println("CAR STARTED");
+        }
+        @Test(dependsOnMethods = {"startCar"})
+        void driveCar()
+        {
+            System.out.println("CAR DRIVING");
+            }
+        }
+
+2- AlwaysRun property
+   The method below will run if it is still error in the code that will being ignored
+   @Test(dependsOnMethods = {"startCar"}, alwaysRun = true)
+
+Part 5
+    Grouping Tests:
+    Very important at time of execution
+    we need to know how to group them like some of them are SANITY TCs/Regression tcs,
+    functional tcs etc how to categorize them in multiple groups
+    int testing.xml file after creating it using the file menu
+         <groups>
+                <run>
+                    <include name="sanity"/>
+                    <include name="regression"/>
+                </run>
+            </groups>
+
+Part 6
+    Assertion in TestNG
+        - Assertion.assertTrue() & Asser.assertFalse()
+        - Assert.assertEquals()
+Part 7
+Parameters in TestNG
+By using testNG xml file we can pass parameter to the test methods. in the below example first we define the
+testNG annotation @parameter than we passed two string in curly brackets "browser", "url" then we also add two
+different parameter in the setup method which will be later reference the annotation parameter than we put a condition
+if the browser is chrome than that needs to be executed and else if the browser is firefox than that needs to be
+targeted we also call the app which will reference the url by driver.get(app) command within the setup method
+we create testng.xml file using the menu file, there we parameterize the browser and the url.
+
+ @BeforeClass
+    @Parameters({"browser", "url"})//we can pass these params in xml file
+    void setup(String browser, String app) {
+        if (browser.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+            driver = new ChromeDriver();
+        }
+        else if (browser.equalsIgnoreCase("firefox")) {
+            System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+            driver = new FirefoxDriver();
+
+        }
+        driver.get(app);
+    }
+
+    <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.google.com"/>
+        <test verbose="1" preserve-order="true"
+              name="/Users/arashpeermohammad/IdeaProjects/testng_project/src/test/java/testNG/Parameter_Example.java">
+            <classes>
+                <class name="testNG.Parameter_Example">
+                </class>
+            </classes>
+        </test>
+
+Part 8
+DataProvider in TestNG
+This is another type of parameterization by using this annotation we can also pass data to the test method int TestNG
+Explanation:
+DataProviders: are used fo data driven testing which means same test case can be run with different set of data.
+It is very powerful feature of TestNG and effectively used during framework development.
+There are few points you should know about DP
+
+1- It marks a methods for supplying the data to other methods
+2- Annotated methods return an array of Object i.e. Object[][].
+3- DP can have a name, and it will be used in other methods by using its name.
+4- DP can be implemented in the same class or different class.
+5- DP is a method annotated with @DataProvider.
+
+Part 9
+Parallel Tests
+    1- Advantages of parallel tests execution
+    2- Run test methods parallel
+    3- Run test classes in parallel
+    4- Run tests suite in parallel
+
+Part 10
+TestNG Listeners
+    1- What are Listeners?
+    2- Types of Listeners
+    3- How to use Listeners?
+We know during testing we need to make test cases and each test case is a method and based on each method we have
+the failure/pass/skip and based on these three RESULT we need to perform certain ACTIONS and this is called post actions
+and here come the LISTENER to use and we import this from testNG and this ACTION will perform only we testNG LISTENERS.
+Now to implement this testNG provided different interfaces and classes to cover this methodology.
+and those interface and classes required a lot of pre define methods. And those methods we have to be integrated with
+with the test cases.
+
+WHAT IS Listener?
+it is an interface or set of methods and those methods automatically will be triggered based on th result of test method
+
+TYPES OF Listeners
+pretend we have the chart of test implementation here, Now the result are divided into 4 parts,
+1- TC START, 2- TC SKIPPED, 3- TC SUCCESS, 4- TC FAILED with each method we can perform some required actions
+
+ITestListener interface:
+Abstract Method:                           Description
+onStart(TestContext arg0)                  invoked after the test class is instantiated and before any conf method is called
+onFinish()                                 invoked after all tests have run and all their config methods have been called
+onTestFailure()                            invoked each time when test fails.
+onTestSkipped()                            invoked each test skipped.
+onTestStart()                              invoked each time before a test will be invoked.
+onTestSuccess()                            invoked each time when the test is passed.
+onTestFailedButWithinSuccessPercentage()   invoked each time a method fails but has been
+                                           annotated with successPercentage this failure still keeps it
+                                           within the success percentage
+
+
+
